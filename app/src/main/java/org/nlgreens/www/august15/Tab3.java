@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by hp1 on 21-01-2015.
+ * Created by Jones on 21-01-2015.
  */
 public class Tab3 extends Fragment {
 
