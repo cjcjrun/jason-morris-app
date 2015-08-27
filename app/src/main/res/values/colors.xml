@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#1b5e20</color>
+    <color name="colorPrimary">#388e3c</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#bdbdbd</color>
+    <color name="windowLight">#c8e6c9</color>
+    <color name="accentColor">#ffd600</color>
+    <color name="darkText">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ColorPrimary">#388e3c</color>
+    <color name="ColorPrimaryDark">#1b5e20</color>
+    <color name="tabsScrollColor">#ffd600</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

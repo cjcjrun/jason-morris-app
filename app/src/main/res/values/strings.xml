@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Use for Header and Test Code during development-->
+    <string name="app_name">Vote Morris</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="join_me">\"Join me in the continued, forward progress of our great schools.\" -Jason Morris</string>
+    <string name="next">Next</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="home">HOME</string>
+    <string name="FORNL">For New London Board of Education</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawertest">drawertest</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TAB1, ABOUT / MEET -->
+
+    <!--TAB2, ISSUES PARAGRAPHS-->
+    <string name="issues1">Implementing Restorative Practices across the district to make our schools safer across the board for students and staff, reduce exclusionary discipline methods that harm more than just that student, and increase student learning time for the kids that need it most.</string>
+    <string name="issues2">Treating our highly certified professional teachers with the respect they deserve by supporting improvements in workplace conditions that benefit both them and our students like lower class sizes, reduced emphasis on “teaching to the test”, authentic progress assessments, evaluations that are not tied to unfair standardized test scores, and increased funding for classroom materials.</string>
+    <string name="issues3">Staying informed on and advocating for the most successful learning methods that are developmentally appropriate, foster and inspire the love of learning, and that support physical, social, and emotional health in every student.</string>
+    <string name="issues4">Reducing the amount of standardized tests in the district. I am deeply concerned with the overwhelming influence they have on where we prioritize our limited funding, the reduction of the arts, physical education, experiential learning including field trips, and more that are just as important as reading, writing, math, and science (the tested subjects).</string>
+    <string name="issues5">Stewarding the magnet district implementation wisely, making sure the system works how it should for our local students, and ensuring that each of our schools have plenty of community input and opportunities for participation to make them great.</string>
+
+    <!-- TAB3, Media -->
+
+    <!-- TAB1, Connect -->
+</resources>
