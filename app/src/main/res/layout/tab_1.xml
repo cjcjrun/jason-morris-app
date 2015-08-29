@@ -6,37 +6,192 @@
     android:layout_gravity="center_horizontal">
 
     <ScrollView
-        android:id="@+id/scrollView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal">
 
-
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="vertical"
-            android:weightSum="5">
-
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/bridgeportrait"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:contentDescription="morrisbridge"
                 android:cropToPadding="false"
                 android:scaleType="fitXY"
                 android:src="@drawable/bridgeportrait" />
 
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                android:weightSum="5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp">
+
+                    <TextView
+                        android:id="@+id/meetjason"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/accentColor"
+                        android:elevation="8dp"
+                        android:padding="10dp"
+                        android:text="@string/meetJason"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/meetjason"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/bio1"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bio1"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/bio2"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bio2"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/bio3"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bio3"
+
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/bio4"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/bio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bio4"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/bio5"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp">
+
+                    <TextView
+                        android:id="@+id/whyRunning"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/accentColor"
+                        android:elevation="8dp"
+                        android:padding="10dp"
+                        android:text="@string/whyRunning"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/meet1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/whyRunning"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/meet1"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/meet2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/meet1"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/meet2"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:id="@+id/quote1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/meet2"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="20dp"
+                        android:gravity="center"
+                        android:text="@string/quote1"
+                        android:textColor="@color/darkText"
+                        android:textSize="20sp"
+                        android:textStyle="italic"
+                        android:layout_centerVertical="true"/>
+
+                    <TextView
+                        android:id="@+id/meet3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/quote1"
+                        android:layout_marginBottom="20dp"
+                        android:background="@color/white"
+                        android:elevation="5dp"
+                        android:padding="10dp"
+                        android:text="@string/meet3"
+                        android:textColor="@color/darkText"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </LinearLayout>
         </LinearLayout>
-
     </ScrollView>
-
-
 </RelativeLayout>

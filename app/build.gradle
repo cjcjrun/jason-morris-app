@@ -1,9 +1,17 @@
+
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'jasonmorrisalias'
+            keyPassword 'jeSSie23'
+            storeFile file('/Users/cjones/jasonmorris.keystore')
+            storePassword 'jeSSie23'
+        }
+    }
     compileSdkVersion 23
     buildToolsVersion "23.0.0"
-
     defaultConfig {
         applicationId "org.nlgreens.www.august15"
         minSdkVersion 15
@@ -16,6 +24,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             proguardFiles 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
@@ -25,4 +34,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.android.support:support-v4:23.0.0'
+
 }
+
