@@ -11,8 +11,18 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
+import com.twitter.sdk.android.Twitter;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
+
+import io.fabric.sdk.android.Fabric;
+
 
 public class MainActivity extends AppCompatActivity {
+
+    // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
+    private static final String TWITTER_KEY = "aVtQBuY6OZwzJphMH9mx7r5mg";
+    private static final String TWITTER_SECRET = "9ywwjqNDb3fpRHTcOkrGv4Lt9GW7ZRDS7lcsVcXEchuIRrTP4A";
+
 
     private ImageButton button_sbm;
 
@@ -26,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        Fabric.with(this, new Twitter(authConfig));
         setContentView(R.layout.activity_main);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -84,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClickButtonListener(View view){
+    public void onClickButtonListener(View view) {
         //do something when button is clicked.
         button_sbm = (ImageButton) findViewById(R.id.greenButton);
         button_sbm.setOnClickListener(

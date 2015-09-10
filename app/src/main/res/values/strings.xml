@@ -4,16 +4,16 @@
     <string name="app_name">Vote Morris</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="join_me">\"Join me in the continued, forward progress of our great schools.\" -Jason Morris</string>
-    <string name="next">Next</string>
+    <string name="join_me">\"Join me in the continued, forward progress of our great schools.\"
+        -Jason Morris
+    </string>
     <string name="title_activity_sub">SubActivity</string>
     <string name="home">HOME</string>
     <string name="FORNL">For New London Board of Education</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_drawertest">drawertest</string>
-    <string name="title_activity_web">WebActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="next">Next</string>
+
+    <!-- Youtube Player -->
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 
     <!-- TAB1, ABOUT / MEET -->
 
@@ -21,24 +21,35 @@
 
     <string name="bio2">&#8226; Core Member of New London Parent Advocates and School Discipline
         Working
-        Group</string>
+        Group
+    </string>
     <string name="bio5">&#8226; Prior Professor of Information Technology in the U.S. Navy</string>
     <string name="bio4">&#8226; Navy Submarine veteran, 10 years active, 4 years Reserves</string>
 
     <string name="bio1">&#8226; Proud father of three children, two in New London schools</string>
 
-    <string name="bio3">&#8226; New London homeowner and resident of 10 years </string>
+    <string name="bio3">&#8226; New London homeowner and resident of 10 years</string>
 
     <string name="whyRunning">Why I Am Running</string>
     <string name="meet1">I have been attending New London Board of Education meetings
-        since Spring of 2012. One of the largest issues I have seen was the severe vacuum of information among board members. Even though this elected position is a volunteer role, it is vital that each member be actively seeking and entertaining new ideas. I feel that the Board of Education should consider relevant studies
-         and historical precedence before signing off on significant changes to the district. This is what drove me to run for the Board. </string>
-    <string name="meet2"> The more information we have, the better decisions we can make. I believe that the Board needs more members who will seek that knowledge, not as a hobby, but in passionate dedication to our children. I believe that the entire community should have a clear understanding of where our limited funding is going, and they should trust that the Board\'s priority should be the students and future of this great city.</string>
+        since Spring of 2012. One of the largest issues I have seen was the severe vacuum of
+        information among board members. Even though this elected position is a volunteer role, it
+        is vital that each member be actively seeking and entertaining new ideas. I feel that the
+        Board of Education should consider relevant studies
+        and historical precedence before signing off on significant changes to the district. This is
+        what drove me to run for the Board.
+    </string>
+    <string name="meet2">The more information we have, the better decisions we can make. I believe
+        that the Board needs more members who will seek that knowledge, not as a hobby, but in
+        passionate dedication to our children. I believe that the entire community should have a
+        clear understanding of where our limited funding is going, and they should trust that the
+        Board\'s priority should be the students and future of this great city.
+    </string>
     <string name="meet3">So, instead of hoping someone will come along, I am being that
-    someone. Please, join me in the continued forward progress of our schools by voting
+        someone. Please, join me in the continued forward progress of our schools by voting
         Morris on election day, November 3,
         2015.
-</string>
+    </string>
 
     <string name="quote1">The more information we have, the better decisions we can make.</string>
 
@@ -47,13 +58,41 @@
     <string name="issues">Issues</string>
     <string name="commit">I am committed to</string>
     <string name="issues1">&#8230;implementing restorative practices across the district
-        to make our schools safer across the board for students and staff, reducing exclusionary discipline methods that will harm more than just that student, and increasing student learning time for the kids that need it most.</string>
-    <string name="issues2">&#8230;treating our highly certified professional teachers with the respect they deserve by supporting improvements in workplace conditions that benefit both them and our students like lower class sizes, reduced emphasis on \“teaching to the test\”, authentic progress assessments, evaluations that are not tied to unfair standardized test scores, and increased funding for classroom materials.</string>
-    <string name="issues3">&#8230;staying informed on and advocating for the most successful learning methods that are developmentally appropriate, foster and inspire the love of learning, and that support physical, social, and emotional health in every student.</string>
-    <string name="issues4">&#8230;reducing the amount of standardized tests in the district. I am deeply concerned with the overwhelming influence they have on where we prioritize our limited funding, the reduction of the arts, physical education, experiential learning including field trips, and more that are just as important as reading, writing, math, and science (the tested subjects).</string>
-    <string name="issues5">&#8230;stewarding the magnet district implementation wisely, making sure the system works how it should for our local students, and ensuring that each of our schools have plenty of community input and opportunities for participation to make them great.</string>
+        to make our schools safer across the board for students and staff, reducing exclusionary
+        discipline methods that will harm more than just that student, and increasing student
+        learning time for the kids that need it most.
+    </string>
+    <string name="issues2">&#8230;treating our highly certified professional teachers with the
+        respect they deserve by supporting improvements in workplace conditions that benefit both
+        them and our students like lower class sizes, reduced emphasis on \“teaching to the test\”,
+        authentic progress assessments, evaluations that are not tied to unfair standardized test
+        scores, and increased funding for classroom materials.
+    </string>
+    <string name="issues3">&#8230;staying informed on and advocating for the most successful
+        learning methods that are developmentally appropriate, foster and inspire the love of
+        learning, and that support physical, social, and emotional health in every student.
+    </string>
+    <string name="issues4">&#8230;reducing the amount of standardized tests in the district. I am
+        deeply concerned with the overwhelming influence they have on where we prioritize our
+        limited funding, the reduction of the arts, physical education, experiential learning
+        including field trips, and more that are just as important as reading, writing, math, and
+        science (the tested subjects).
+    </string>
+    <string name="issues5">&#8230;stewarding the magnet district implementation wisely, making sure
+        the system works how it should for our local students, and ensuring that each of our schools
+        have plenty of community input and opportunities for participation to make them great.
+    </string>
 
     <!-- TAB3, Media -->
 
+    <string name="youtube">YouTube Videos</string>
+    <string name="tweet">TWEET</string>
+
     <!-- TAB1, Connect -->
+
+    <string name="connect">CONTACT JASON</string>
+    <string name="email"></string>
+    <string name="email_address">Jason@nlgreens.org</string>
+    <string name="phone">Call or Text Me</string>
+    <string name="phone_number">860-501-9889</string>
 </resources>
